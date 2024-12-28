@@ -1,0 +1,146 @@
+/* .desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+} */
+.border-box {
+  background: #323232;
+  width: 1047px;
+  height: 434px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.key {
+  background: #d9d9d9;
+  width: 106px;
+  height: 416px;
+  position: absolute;
+  top: 304px;
+}
+.key:nth-child(n) {
+  left: calc(205px + (115px * (n - 1)));
+}
+/* .do {
+  left: 205px;
+}
+.re {
+  left: 320px;
+}
+.mi {
+  left: 436px;
+}
+.fa {
+  left: 551px;
+}
+.sol {
+  left: 667px;
+}
+.la {
+  left: 782px;
+}
+.ti {
+  left: 897px;
+}
+.do-octave {
+  left: 1013px;
+}
+.re-extra-not-working {
+  left: 1128px;
+} */
+.sharps {
+  background: #323232;
+  width: 55px;
+  height: 225px;
+  position: absolute;
+  top: 304px;
+}
+.sharp-1 {
+  left: 283px;
+}
+.sharp-2 {
+  left: 404px;
+}
+.sharp-3 {
+  left: 629px;
+}
+.sharp-4 {
+  left: 750px;
+}
+.sharp-5 {
+  left: 865px;
+}
+.sharp-6 {
+  left: 1091px;
+}
+.number-label {
+  color: #b7b7b7;
+  text-align: center;
+  font-family: "Jaro-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  top: 610px;
+}
+._1 {
+  left: 252px;
+}
+._2 {
+  left: 365px;
+}
+._3 {
+  left: 479px;
+}
+._4 {
+  left: 593px;
+}
+._5 {
+  left: 711px;
+}
+._6 {
+  left: 825px;
+}
+._7 {
+  left: 941px;
+}
+._8 {
+  left: 1053px;
+}
+.key-label {
+  color: #b7b7b7;
+  text-align: center;
+  font-family: "Jaro-Regular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: absolute;
+  top: 672px;
+}
+.do2 {
+  left: 241px;
+}
+.mi2 {
+  left: 472px;
+}
+.re2 {
+  left: 357px;
+}
+.fa2 {
+  left: 588px;
+}
+.sol2 {
+  left: 699px;
+}
+.la2 {
+  left: 822px;
+}
+.ti2 {
+  left: 938px;
+}
+.do3 {
+  left: 1048px;
+}

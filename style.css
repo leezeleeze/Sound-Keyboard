@@ -1,0 +1,81 @@
+html {
+    font-size: 10px;
+    background-color: #E9E5DC;
+}
+  
+body,html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.border-box {
+  background: #323232;
+  width: 940px;
+  height: 435px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.sharps {
+  background: #323232;
+  width: 55px;
+  height: 225px;
+  position: absolute;
+  top: 0px
+}
+.sharp-1 {
+  left: 94px; 
+}
+.sharp-2 {
+  left: 210px;
+}
+.sharp-3 {
+  left: 442px;
+}
+.sharp-4 {
+  left: 558px;
+}
+.sharp-5 {
+  left: 674px;
+}
+.keys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  gap: 10px;
+}
+.key {
+  font-size: 1.5rem;
+  transition: transform 0.1s ease;
+  text-align: center;
+  background: #d9d9d9;
+  width: 106px;
+  height: 418px;
+  position: relative;
+}
+.playing {
+  transform: scale(1);
+  border-color: #ffc600;
+  background: #C1C1C1;
+}
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #000000;
+}

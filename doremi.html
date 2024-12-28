@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Do-Re-Mi</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="piano.css"> -->
+</head>
+<body>
+    <div class="border-box">
+        <div class="keys">
+            <!-- Do -->
+            <div class="key" data-key="49">
+                <kbd>1</kbd>                    <!-- Keyboard Input Tag -->
+                <span class="sound">Do</span>   <!-- Displays sound name associated with key -->
+            </div>
+    
+            <!-- Re -->
+            <div class="key" data-key="50">
+                <kbd>2</kbd>
+                <span class="sound">Re</span>
+            </div>
+    
+            <!-- Mi -->
+            <div class="key" data-key="51">
+                <kbd>3</kbd>
+                <span class="sound">Mi</span>
+            </div>
+    
+            <!-- Fa -->
+            <div class="key" data-key="52">
+                <kbd>4</kbd>
+                <span class="sound">Fa</span>
+            </div>
+    
+            <!-- Sol -->
+            <div class="key" data-key="53">
+                <kbd>5</kbd>
+                <span class="sound">Sol</span>
+            </div>
+    
+            <!-- La -->
+            <div class="key" data-key="54">
+                <kbd>6</kbd>
+                <span class="sound">La</span>
+            </div>
+    
+            <!-- Ti -->
+            <div class="key" data-key="55">
+                <kbd>7</kbd>
+                <span class="sound">Ti</span>
+            </div>
+            
+            <!-- Do (Higher Octave) -->
+            <div class="key" data-key="56">
+                <kbd>8</kbd>
+                <span class="sound">Do</span>
+            </div>
+        </div>
+        <!-- Sharp Keys -->
+        <div class="sharps sharp-1"></div>
+        <div class="sharps sharp-2"></div>
+        <div class="sharps sharp-3"></div>
+        <div class="sharps sharp-4"></div>
+        <div class="sharps sharp-5"></div>
+    </div>
+
+    <audio data-key="49" src="wav/Do.wav"></audio>
+    <audio data-key="50" src="wav/Re.wav"></audio>
+    <audio data-key="51" src="wav/Mi.wav"></audio>
+    <audio data-key="52" src="wav/Fa.wav"></audio>
+    <audio data-key="53" src="wav/Sol.wav"></audio>
+    <audio data-key="54" src="wav/La.wav"></audio>
+    <audio data-key="55" src="wav/Ti.mp3"></audio>
+    <audio data-key="56" src="wav/Do2.wav"></audio>
+
+    <script src="playSound.js"></script>
+
+</body>
+</html>
